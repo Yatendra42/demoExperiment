@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Angular Experiment No. 1</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/angular-material.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <style>
+          .light-green{ background:#b2e0ad; max-width: 300px;   }
+          .light-blue{ background:#9dc0e4; width:calc(100vw - 300px); }
+          
+          .content-cover{ position:relative; width:100%; }
+          
+      </style>  
+      
+  </head>
+  <body layout="column">
+      
+    
+          <md-toolbar class="md-whiteframe-4dp ">
+              <h1>Angular Material Starter</h1>
+          </md-toolbar>
+      
+      
+   
+      
+      <div class="container content-cover" layout="row" flex>
+      
+          <md-sidenav md-id-locked-open="true" class="light-green md-whiteframe-2dp">
+            <md-list>
+              <md-list-item>
+                 <md-button class="button-one" >
+                  <md-icon md-svg-src="images/img-1.svg" class="avatar"></md-icon>Yatendra Jain
+               </md-button>
+            </md-list-item>
+  
+            <md-list-item>
+                 <md-button class="button-one">
+                  <md-icon md-svg-src="images/img-2.svg" class="avatar"></md-icon>Alli Thomson
+               </md-button>
+            </md-list-item>
+
+            <md-list-item>
+                 <md-button class="button-one">
+                  <md-icon md-svg-src="images/img-1.svg" class="avatar"></md-icon>Sukhavindra Chhada
+               </md-button>
+            </md-list-item>
+
+            <md-list-item>
+                 <md-button class="button-one">
+                  <md-icon md-svg-src="images/img-2.svg" class="avatar"></md-icon>Maria Petorson
+               </md-button>
+            </md-list-item>
+
+            <md-list-item>
+                 <md-button class="button-one">
+                  <md-icon md-svg-src="images/img-2.svg" class="avatar"></md-icon>Vikram Sharma
+               </md-button>
+            </md-list-item>
+
+
+          </md-list>  
+
+     
+
+
+        </md-sidenav>
+
+
+
+
+
+          <md-content id="content" flex class="light-blue" ng-controller="AppCtrl" flex >
+
+        
+      <md-card>
+        <img ng-src="{{imagePath}}" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Action buttons</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button>Action 1</md-button>
+          <md-button>Action 2</md-button>
+        </md-card-actions>
+      </md-card>
+ 
+  
+
+
+        </md-content>
+          
+      </div>
+      
+      
+  
+      
+   
+    <script src="js/jquery-1.11.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/angular.min.js"></script> 
+    <script src="js/angular-animate.min.js"></script> 
+    <script src="js/angular-aria.min.js"></script> 
+    <script src="js/angular-messages.min.js"></script> 
+    <script src="js/angular-material.min.js"></script>   
+      
+    <script src="js/custom.js"></script>      
+    <script src="js/controller.js"></script>    
+      
+      
+  </body>
+</html>
